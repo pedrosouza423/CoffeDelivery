@@ -40,3 +40,7 @@ export const IntroSection = styled.div`
     align-items: center;
     margin-top: 5rem;
 `
+
+export const CoffeListSection = styled.div`
+    
+`
