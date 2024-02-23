@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const CounterContainer = styled.div`
     width: 4.5rem;
-    height: 2.375rem;
+    height: 2rem;
     background-color: ${ props => props.theme['base-button']};
 
     display: flex;

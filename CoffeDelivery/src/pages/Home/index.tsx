@@ -1,4 +1,4 @@
-import { CoffeListSection, ColumnItem, HomeContainer, IntroSection, ItensWrapper, TitleWrapper } from './styles'
+import { CoffeList, CoffeListSection, CoffeeListTitle, ColumnItem, HomeContainer, IntroSection, ItensWrapper, TitleWrapper } from './styles'
 import CoffeDeliveryImage from '../Home/assets/Imagem.svg'
 import { Item } from './components/Item'
 import { Coffee, Package, ShoppingCart, Timer } from '@phosphor-icons/react'
@@ -28,8 +28,19 @@ export const Home = () => {
       <img src={CoffeDeliveryImage} alt="" />
       </IntroSection>
       <CoffeListSection>
-        <h3>Nossos cafés</h3>
-        <CoffeCard />
+        <CoffeeListTitle>Nossos cafés</CoffeeListTitle>
+        <CoffeList>
+          <CoffeCard />
+          <CoffeCard />
+          <CoffeCard />
+          <CoffeCard />
+
+          <CoffeCard />
+          <CoffeCard />
+          <CoffeCard />
+          <CoffeCard />
+        </CoffeList>
+
       </CoffeListSection>
     </HomeContainer>
   )

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const HomeContainer = styled.div`
-
 `
 
 export const TitleWrapper = styled.div`
@@ -42,5 +41,23 @@ export const IntroSection = styled.div`
 `
 
 export const CoffeListSection = styled.div`
-    
+    flex-direction: column;
+    display: flex;
+    margin-top: 5rem;
+
+`
+
+export const CoffeeListTitle = styled.h3`
+  width: 1120px; 
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 2rem; 
+
+`;
+
+export const CoffeList = styled.div`
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
 `
