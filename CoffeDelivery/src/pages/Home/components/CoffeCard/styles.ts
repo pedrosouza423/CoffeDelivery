@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const CoffeCardContainer = styled.div`
  background-color: ${props => props.theme['base-card']};
  width: 16rem;
-height: 19rem;
+height: 20rem;
 border-radius: 6px 36px 6px 36px;
  margin-bottom: 0.5rem;
 display: flex;

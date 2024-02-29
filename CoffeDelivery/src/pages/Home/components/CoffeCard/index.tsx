@@ -5,6 +5,7 @@ import { Counter } from './components/Counter'
 import expresso from './assets/expresso.svg'
 
 export const CoffeCard = () => {
+
   return (
     <CoffeCardContainer>
       <img src={expresso} alt="" />
